@@ -1,0 +1,268 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 12% 18% 12% 18%;
+            background-color: rgb(6, 6, 44);
+            color: white;
+        }
+        .div1 img{
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            padding-top: 0px;
+        }
+        /* .main{
+            width: 15%;
+            border: 1px solid black;
+        } */
+        .div1{
+            /* position: relative; */
+            padding-top: 10px;
+            width: 175px;
+            height: 217px;
+            background-color: rgb(7, 97, 176);
+            /* text-align: center; */
+            border-radius: 12px;
+            /* z-index: ; */
+            line-height: 25px;
+        }
+        .div2{
+            position: absolute;
+            top: 57%;
+            width: 175px;
+            height: 125px;
+            background-color: rgb(6, 6, 81);
+            /* text-align: center; */
+            z-index: -1;
+            border-radius: 6px;
+        }
+        .div1 p,.div2 p{
+            padding-left: 20px;
+            font-size: 14px;
+        }
+        .all{
+            display: flex;
+        }
+        .col1,.col2,.col3{
+            margin: 0 0 0 40px;
+        }
+        .ele1{
+            background-color: orange;
+            width: 190px;
+            height: 100px;
+            /* margin-left: 17%;
+            margin-top: -19.5%; */
+            border-radius: 15px;
+        }
+        .ele2{
+            background-color: rgb(122, 200, 4);
+            width: 190px;
+            height: 100px;
+            border-radius: 15px;
+            margin-top: 120px;
+        }
+        .ele3{
+            background-color: rgb(14, 168, 240);
+            width: 190px;
+            height: 100px;
+            border-radius: 15px;
+        }
+        .ele4{
+            background-color: rgb(82, 7, 87);
+            width: 190px;
+            height: 100px;
+            border-radius: 15px;
+            margin-top: 120px;
+        }
+        .ele5{
+            background-color: rgb(159, 10, 48);
+            width: 190px;
+            height: 100px;
+            border-radius: 15px;
+        }
+        .ele6{
+            background-color: rgb(243, 235, 8);
+            width: 190px;
+            height: 100px;
+            border-radius: 15px;
+            margin-top: 120px;
+        }
+
+        .ab1{
+            position: absolute;
+            height: 100px;
+            width: 190px;
+            background-color: rgb(2, 2, 66);
+            margin: 40px 0 0 215px;
+            border-radius: 8px;
+            line-height: 6px;
+        }
+        .ab1 p,.ab2 p,.ab3 p,.ab4 p,.ab5 p,.ab6 p{
+            padding-left: 15px;
+            font-size: 15px;
+        }
+
+        .ab2{
+            position: absolute;
+            height: 100px;
+            width: 190px;
+            background-color: rgb(2, 2, 66);
+            margin: 40px 0 0 445px;
+            border-radius: 8px;
+            line-height: 6px;
+        }
+
+        .ab3{
+            position: absolute;
+            height: 100px;
+            width: 190px;
+            background-color: rgb(2, 2, 66);
+            margin: 40px 0 0 675px;
+            border-radius: 8px;
+            line-height: 6px;
+        }
+
+        .ab4{
+            position: absolute;
+            height: 100px;
+            width: 190px;
+            background-color: rgb(2, 2, 66);
+            margin: 255px 0 0 215px;
+            border-radius: 8px;
+            line-height: 6px;
+        }
+
+        .ab5{
+            position: absolute;
+            height: 100px;
+            width: 190px;
+            background-color: rgb(2, 2, 66);
+            margin: 255px 0 0 445px;
+            border-radius: 8px;
+            line-height: 6px;
+        }
+
+        .ab6{
+            position: absolute;
+            height: 100px;
+            width: 190px;
+            background-color: rgb(2, 2, 66);
+            margin: 255px 0 0 675px;
+            border-radius: 8px;
+            line-height: 6px;
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+    <div class="main">
+        <div class="div1" >
+            <p><img src="girl.png" alt="img"></p>
+            <p style="line-height: 30px;">Report For <br><b style="font-size: 30px;">Jeremy <br>Robson</b></p>
+        </div>
+        <div class="div2">
+            <p style="padding-top: 10px;">Daily</p>
+            <p>Weekly</p>
+            <p>Monthly</p>
+        </div>
+    </div>
+
+
+    <div class="col1">
+        <div class="ele1">
+
+        </div>
+        <div class="ele2">
+
+        </div>
+    </div>
+    <div class="col2">
+        <div class="ele3">
+
+        </div>
+        <div class="ele4">
+
+        </div>
+
+    </div>
+    <div class="col3">
+        <div class="ele5">
+
+        </div>
+        <div class="ele6">
+
+        </div>
+
+    </div>
+
+    <div class="ab1" style="display: flex;">
+        <div style="width: 80%;">
+         <p>work </p>
+         <p style="font-size: 25px;"><b>32hrs</b></p>
+         <p>Last Week. 36hrs</p>
+        </div>
+        <div>
+            <p><b>...</b></p>
+        </div>
+    </div>
+
+    <div class="ab2" style="display: flex;">
+        <div style="width: 80%;">
+         <p>play </p>
+         <p style="font-size: 25px;"><b>10hrs</b></p>
+         <p>Last Week. 8hrs</p>
+        </div>
+        <div>
+            <p><b>...</b></p>
+        </div>
+    </div>
+
+    <div class="ab3" style="display: flex;">
+        <div style="width: 80%;">
+         <p>study </p>
+         <p style="font-size: 25px;"><b>4hrs</b></p>
+         <p>Last Week. 7hrs</p>
+        </div>
+        <div>
+            <p><b>...</b></p>
+        </div>
+    </div>
+
+    <div class="ab4" style="display: flex;">
+        <div style="width: 80%;">
+         <p>exersice </p>
+         <p style="font-size: 25px;"><b>4hrs</b></p>
+         <p>Last Week. 5hrs</p>
+        </div>
+        <div>
+            <p><b>...</b></p>
+        </div>
+    </div>
+
+    <div class="ab5" style="display: flex;">
+        <div style="width: 80%;">
+         <p>social </p>
+         <p style="font-size: 25px;"><b>5hrs</b></p>
+         <p>Last Week. 10hrs</p>
+        </div>
+        <div>
+            <p><b>...</b></p>
+        </div>
+    </div>
+
+    <div class="ab6" style="display: flex;">
+        <div style="width: 80%;">
+         <p>self care </p>
+         <p style="font-size: 25px;"><b>2hrs</b></p>
+         <p>Last Week. 2hrs</p>
+        </div>
+        <div>
+            <p><b>...</b></p>
+        </div>
+    </div>
+</body>
+</html>
