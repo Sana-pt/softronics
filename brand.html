@@ -43,19 +43,36 @@
         }
         .nav{
             display: flex;
+            justify-content: space-between;
             /* border: 1px solid green; */
             height: 40px;
             /* flex-wrap: wrap; */
             background-color: white;
             border-radius: 0 10px 0 0;
         }
+        .navcon{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px 50px 5px 0px;
+            margin: 18px;
+        }
         .srch{
-            border-top: 2px solid rgb(183, 181, 181);
-            height: 20px;
-            width: 300px;
-            margin: 8px;
-            margin-left: 400px;
-            background-color: rgb(183, 181, 181);
+            justify-self: center;
+        }
+        .searchbar{
+            background-image: url("https://img.icons8.com/?size=100&id=132&format=png&color=000000");
+            background-repeat: no-repeat;
+            background-size: 34px;
+            background-position: 470px center;
+            border: 0px solid rgb(183, 181, 181);
+            width: 500px;
+           height: 30px;
+           font-size: medium;
+           margin: 5px 0px 0px 170px;
+           background-color: rgb(175, 172, 172);
+          
+
         }
         .mainrow{
             display: flex;
@@ -120,6 +137,25 @@
         /* th{
             text-align: left;
         } */
+        .submit{
+        border: none;
+        background-color: brown;
+        color: white;
+        }
+        .girl{
+            width: 30px;
+            height: auto;
+            border-radius: 100%;
+        }
+        .notif{
+            height: 30px;
+            width: 30px;
+            padding: 5px 20px;
+        }
+        .b1{
+            color: white;
+        }
+      
     </style>
 </head>
 <body>
@@ -144,13 +180,12 @@
 
             <div class="nav">
                 <div class="srch">
-                    <input type="text" placeholder="search" style="width: 270px;border: none;background: none;">
-                    <i class="fa-solid fa-magnifying-glass" ></i>
+                    <input type="text" class="searchbar" placeholder="search">
                 </div>
-                <div style="margin-top: 10px;padding: 0 10px 0 300px;">
-                    <input type="submit" value="Add New" style="margin-right: 30px;background-color: brown;">
-                    <i class="bi bi-bell-fill" style="margin-right: 30px;"></i>
-                    <i class="bi bi-person-circle" style="background-color: rgb(17, 71, 152);border-radius: 50%;"></i>
+                <div class="navcon">
+                    <button class="submit">Add New</button>
+                    <img class="notif" src="https://img.icons8.com/?size=100&id=LF602lAhk08H&format=png&color=000000" />
+                    <img class="girl" src="girl.png">
                 </div>
             </div>
 
@@ -162,7 +197,7 @@
                             <b style="font-size: 30px;">2194</b><br>Students
                         </div>
                         <div style="width: 25%;">
-                            <img src="girl.png" alt="img" style="height: 40px;width: 40px;padding-top: 40px;">
+                            <img src="girl.png" alt="img" style="height:auto;width: 20px;padding-top: 40px;">
                         </div>
                     </div>
                     <div class="row" style="display: flex;">
@@ -194,7 +229,7 @@
                 <div style="display: flex;">
                     <div class="sub">
                         <div class="sub1">
-                            <b style="font-size: 20px;padding: 0 390px 0 125px;">Recent Payments </b><button style="height: 26px;">View All</button>
+                            <b style="font-size: 20px;padding: 0 390px 0 125px;">Recent Payments </b><button style="height: 26px;color: white;">View All</button>
 
                         </div>
                         <div class="sub2">
@@ -209,37 +244,37 @@
                                     <td>John Doe</td>
                                     <td>St.James College</td>
                                     <td>$120</td>
-                                    <td><button>View</button></td>
+                                    <td><button class="b1">View</button></td>
                                 </tr>
                                 <tr>
                                     <td>John Doe</td>
                                     <td>St.James College</td>
                                     <td>$120</td>
-                                    <td><button>View</button></td>
+                                    <td><button class="b1">View</button></td>
                                 </tr>
                                 <tr>
                                     <td>John Doe</td>
                                     <td>St.James College</td>
                                     <td>$120</td>
-                                    <td><button>View</button></td>
+                                    <td><button class="b1">View</button></td>
                                 </tr>
                                 <tr>
                                     <td>John Doe</td>
                                     <td>St.James College</td>
                                     <td>$120</td>
-                                    <td><button>View</button></td>
+                                    <td><button class="b1">View</button></td>
                                 </tr>
                                 <tr>
                                     <td>John Doe</td>
                                     <td>St.James College</td>
                                     <td>$120</td>
-                                    <td><button>View</button></td>
+                                    <td><button class="b1">View</button></td>
                                 </tr>
                                 <tr>
                                     <td>John Doe</td>
                                     <td>St.James College</td>
                                     <td>$120</td>
-                                    <td><button>View</button></td>
+                                    <td><button class="b1">View</button></td>
                                 </tr>
                             </table>
                         </div>
@@ -248,7 +283,7 @@
 
                     <div class="hub">
                         <div class="hub1">
-                            <b style="font-size: 20px;padding: 0 50px 0 10px;">New Students</b><button style="height: 26px;">View All</button>
+                            <b style="font-size: 20px;padding: 0 50px 0 10px;">New Students</b><button style="height: 26px;color: white;">View All</button>
                         </div>
                         <div class="hub2">
                             <table style="line-height: 40px;">
